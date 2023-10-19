@@ -5,15 +5,14 @@
 
 int main(void) 
 {
-	int flag = 1;
-	int y;
-	
-	while(flag != 0)
-	{	
-		y = 3;
-		flag = 0;
-	}
+	int i;
+	int temp = 1;
 
-	y = 4;
+	for (i=0; i<5; i++)
+	{
+		printf("temp = %d\n", temp);
+
+		temp++;
+	}
 	return 0;
 }
